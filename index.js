@@ -11,7 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 
 var users = [
     {id : 1, name :'long'},
-    {id : 2, name :'thang'}
+    {id : 2, name :'thang'},
+    {id : 3, name :'hoang'}
 ];
 
 app.get('/',function(req, res){
