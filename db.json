@@ -1,40 +1,24 @@
 {
   "users": [
     {
-      "name": "ngoc",
-      "id": "MJprqzVT"
-    },
-    {
-      "name": "lan",
-      "id": "yv7F5ZjH"
-    },
-    {
-      "name": "long",
-      "id": "Xibv9KLn"
-    },
-    {
-      "name": "hang",
-      "id": "tJ8oC4IH"
-    },
-    {
-      "name": "sdcsd",
-      "id": "lwbGKHxF"
-    },
-    {
-      "name": "anh",
-      "id": "sI4MFrAi"
-    },
-    {
-      "name": "dg",
-      "id": "Aw3Lddge"
-    },
-    {
       "name": "Viet Long",
-      "id": "w4ipB6KX"
+      "phone": "09834353",
+      "id": "agj8Drof"
     },
     {
-      "name": "Ngoc Anh",
-      "id": "eExfH9v_"
+      "name": "Cong Dinh",
+      "phone": "01434645",
+      "id": "v2CsQ_UC"
+    },
+    {
+      "name": "Lan Anh",
+      "phone": "09987687",
+      "id": "q-zJaYg5"
+    },
+    {
+      "name": "Cong",
+      "phone": "2364574",
+      "id": "dObUfyYa"
     }
   ]
 }
