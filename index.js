@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
 
 const userRouter = require('./routers/users.router');
 
@@ -13,6 +14,7 @@ app.use(express.static('public'));
 
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 
 app.use('/users', userRouter);
 
