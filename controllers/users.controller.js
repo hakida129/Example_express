@@ -9,9 +9,9 @@ module.exports.index = function(req, res){
 };
 
 module.exports.search = function(req,res){
-    const q = req.query.q;
+    const name = req.query.name;
     const matchedUsers = db.get('users').value().filter(function(user){
-        return user.name.indexOf(q) !== -1;
+        return user.name.indexOf(name) !== -1;
     });
     res.render('users/index',{
         users: matchedUsers
