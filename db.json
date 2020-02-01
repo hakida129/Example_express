@@ -1,32 +1,19 @@
 {
   "users": [
     {
-      "name": "ngoc",
-      "id": "MJprqzVT"
+      "name": "Viet Long",
+      "phone": "09834353",
+      "id": "agj8Drof"
     },
     {
-      "name": "lan",
-      "id": "yv7F5ZjH"
+      "name": "Cong Dinh",
+      "phone": "01434645",
+      "id": "v2CsQ_UC"
     },
     {
-      "name": "long",
-      "id": "Xibv9KLn"
-    },
-    {
-      "name": "hang",
-      "id": "tJ8oC4IH"
-    },
-    {
-      "name": "sdcsd",
-      "id": "lwbGKHxF"
-    },
-    {
-      "name": "anh",
-      "id": "sI4MFrAi"
-    },
-    {
-      "name": "dg",
-      "id": "Aw3Lddge"
+      "name": "Lan Anh",
+      "phone": "2345675",
+      "id": "P81paZfp"
     }
   ]
 }

@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 
 const userRouter = require('./routers/users.router');
 
-
 const app = express();
 const port = 3000;
 
@@ -22,7 +21,6 @@ app.get('/',function(req, res){
         name : 'hakida'
     });
 });
-
 
 app.listen(port, function(){
     console.log(`Example app listerning on port ${port}`);
