@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 
 const userRouter = require('./routers/users.router');
+const authRouter = require('./routers/auth.router');
 
 const app = express();
 const port = 3000;
@@ -17,6 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use('/users', userRouter);
+app.use('/auth', authRouter);
 
 app.get('/',function(req, res){
     res.render('index',{

@@ -3,7 +3,9 @@
     {
       "name": "Viet Long",
       "phone": "09834353",
-      "id": "agj8Drof"
+      "id": "agj8Drof",
+      "email": "vietlongit@gmail.com",
+      "password": "123456"
     },
     {
       "name": "Cong Dinh",
