@@ -1,6 +1,9 @@
+require('dotenv').config()
+console.log(process.env.SESSION_SECRET);
+
 const express = require('express');
 const bodyParser = require('body-parser');
-var cookieParser = require('cookie-parser');
+const cookieParser = require('cookie-parser');
 
 const userRouter = require('./routers/users.router');
 const authRouter = require('./routers/auth.router');
@@ -17,7 +20,7 @@ app.use(express.static('public'));
 
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser('wercghjy45fghdf3ssd'));
+app.use(cookieParser('process.env.SESSION_SECRET'));
 
 app.use('/users',authMiddleware.requireAuth, userRouter);
 app.use('/auth', authRouter);
