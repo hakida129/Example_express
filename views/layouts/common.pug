@@ -17,5 +17,8 @@ html
                 li.nav-item
                     a.nav-link(href='/cart') Cart
 
+        if user
+            p= user.name
+
     .container.pt-4
         block content

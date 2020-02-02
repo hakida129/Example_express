@@ -17,7 +17,7 @@ app.use(express.static('public'));
 
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser());
+app.use(cookieParser('wercghjy45fghdf3ssd'));
 
 app.use('/users',authMiddleware.requireAuth, userRouter);
 app.use('/auth', authRouter);
