@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser');
 
 const userRouter = require('./routers/users.router');
 const authRouter = require('./routers/auth.router');
+const productRouter = require('./routers/product.router');
 
 const authMiddleware = require('./middlewares/auth.middlewares');
 
@@ -23,6 +24,7 @@ app.use(cookieParser('process.env.SESSION_SECRET'));
 
 app.use('/users',authMiddleware.requireAuth, userRouter);
 app.use('/auth', authRouter);
+app.use('/products', productRouter);
 
 app.get('/',function(req, res){
     res.render('index',{
