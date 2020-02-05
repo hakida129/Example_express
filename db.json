@@ -2,30 +2,28 @@
   "users": [
     {
       "name": "Viet Long",
-      "phone": "09834353",
+      "phone": "9999999",
       "id": "agj8Drof",
       "email": "123456@gmail.com",
       "password": "e10adc3949ba59abbe56e057f20f883e"
     },
     {
+      "name": "Hong Hanh",
+      "phone": "123456",
+      "id": "4yy0YWSZ",
+      "avatar": "uploads/3082838ec554c83e7a163e8c6e65fb45"
+    },
+    {
       "name": "Cong Dinh",
-      "phone": "01434645",
-      "id": "v2CsQ_UC"
+      "phone": "89898989",
+      "id": "FyWhnPPL",
+      "avatar": "uploads/55746e2a5a3fce151aef9a78e3df4d1b"
     },
     {
-      "name": "Trang Hoang Anh",
-      "phone": "2345367576",
-      "id": "2NGcYbJV"
-    },
-    {
-      "name": "hong mang",
-      "phone": "12324",
-      "id": "oP9mcd8f"
-    },
-    {
-      "name": "rgxv",
-      "phone": "et343t",
-      "id": "pMiv-HHo"
+      "name": "Viet ",
+      "phone": "12332123",
+      "id": "_V2lRhvh",
+      "avatar": "uploads/ac849de29ff703b8241a8cdcc7d8ddcf"
     }
   ],
   "products": [
